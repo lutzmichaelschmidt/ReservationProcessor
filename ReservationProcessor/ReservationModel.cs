@@ -10,6 +10,6 @@ namespace ReservationProcessor
         public string For { get; set; }
         public DateTime ReservationCreated { get; set; }
         public string Books { get; set; }
-        public string Status { get; set; }
+        public int Status { get; set; }
     }
 }
